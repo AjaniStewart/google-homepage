@@ -1,10 +1,46 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
     background: white;
     height: 100%;
     width: 100%;
+    
 }
 
 li {
     display: inline;
+}
+
+ul {
+    display: inline;
+}
+
+/* img {
+    position: absolute;
+} */
+
+.search_box input {
+    height: 50px;
+    width: 400px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.center {
+    width: 980px;
+    height: 398px;
+    position: absolute;
+    top: 200px;
+    left: 410px;
+}
+
+.footer {
+    height: 40px;
+    width: 1007px;
 }
