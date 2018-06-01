@@ -1,3 +1,8 @@
+/* TODO: Fix overflow
+        Move footer elements down
+        Possible: Make a grid in CSS */
+
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 13px;
@@ -14,10 +19,6 @@ li {
 ul {
     display: inline;
 }
-
-/* img {
-    position: absolute;
-} */
 
 .search_box input {
     height: 50px;
