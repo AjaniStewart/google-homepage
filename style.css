@@ -12,17 +12,36 @@ body {
     
 }
 
+
+img {
+    position: absolute;
+    top: -47px;
+    left: 75px;
+}
+
 li {
     display: inline;
+    padding: 6px;
 }
 
 ul {
     display: inline;
 }
 
+.search_box {
+    height: 44px;
+    width: 428px;
+    border: 1px solid #d6d6d6;
+    position: absolute;
+    top: 79px;
+
+}
+/*not sure if this does anything*/
 .search_box input {
-    height: 50px;
+    height: 44px;
     width: 400px;
+    
+    border: none;
 }
 
 .left {
@@ -34,14 +53,33 @@ ul {
 }
 
 .center {
-    width: 980px;
-    height: 398px;
+    width: auto;
+    height: auto;
     position: absolute;
-    top: 200px;
-    left: 410px;
+    top: 245px;
+    left: 34em;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto; 
 }
 
 .footer {
     height: 40px;
-    width: 1007px;
+    width: 100%;
+    position: absolute;
+    top: 100%;
+}
+
+.header {
+    position: absolute; 
+}
+
+.buttons {
+    position: absolute;
+    top: 154px;
+    left: 100px;
+}
+
+li:hover {
+    text-decoration: underline;
 }
