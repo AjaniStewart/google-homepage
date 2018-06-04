@@ -1,8 +1,3 @@
-/* TODO: Fix overflow
-        Move footer elements down
-        Possible: Make a grid in CSS */
-
-
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 13px;
@@ -11,7 +6,6 @@ body {
     width: 100%;
     
 }
-
 
 img {
     position: absolute;
@@ -26,15 +20,21 @@ li {
 
 ul {
     display: inline;
+    padding: 10px;
 }
 
 .search_box {
     height: 44px;
-    width: 428px;
+    width: 470px;
     border: 1px solid #d6d6d6;
     position: absolute;
+    left: -33px;
     top: 79px;
+    box-shadow: 0.1px 0.9px 7px 0px #c8c8c8;
+}
 
+.search_box:active, .search_box:hover {
+    box-shadow: 0.1px 0.9px 7px 1px #c8c8c8;
 }
 /*not sure if this does anything*/
 .search_box input {
@@ -57,7 +57,7 @@ ul {
     height: auto;
     position: absolute;
     top: 245px;
-    left: 34em;
+    left: 39em;
     right: 0;
     margin-left: auto;
     margin-right: auto; 
@@ -67,19 +67,34 @@ ul {
     height: 40px;
     width: 100%;
     position: absolute;
-    top: 100%;
-}
-
-.header {
-    position: absolute; 
+    top: 95%;
+    background: #f2f2f2;
 }
 
 .buttons {
     position: absolute;
     top: 154px;
-    left: 100px;
+    left: 77px;
 }
 
 li:hover {
     text-decoration: underline;
+}
+
+input.button {
+    border: none;
+    background: #f1f1f1;
+    color: #757575;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+input.button:hover {
+    /* border: 1px solid black; */
+    color: black;
+    background: #f1f1f1;
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
 }
