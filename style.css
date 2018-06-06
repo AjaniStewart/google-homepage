@@ -7,9 +7,9 @@ body {
     
 }
 
-.center img {
+.logo {
     position: absolute;
-    top: -47px;
+    top: -35px;
     left: 75px;
 }
 
@@ -25,10 +25,10 @@ ul {
 
 .search_box {
     height: 44px;
-    width: 589px;
+    width: 460px;
     border: 1px solid #d6d6d6;
     position: absolute;
-    left: -51px;
+    left: -19px;
     top: 79px;
     box-shadow: 0.1px 0.9px 7px 0px #c8c8c8;
 }
@@ -42,7 +42,7 @@ ul {
     position: absolute;
     border: none;
     z-index: 7;
-    width: 85%;
+    width: 90%;
     top: 10px;
     left: 10px;
 }
@@ -152,4 +152,11 @@ ul.ft {
 ul.ft li {
     padding-left: 11px;
     padding-right: 13px;
+}
+
+.voice_search {
+    display: inline;
+    position: relative;
+    top: 9px;
+    left: 426px;
 }
