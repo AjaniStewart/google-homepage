@@ -7,7 +7,7 @@ body {
     
 }
 
-img {
+.center img {
     position: absolute;
     top: -47px;
     left: 75px;
@@ -20,7 +20,7 @@ li {
 
 ul {
     display: inline;
-    padding: 10px;
+    padding: 14px;
 }
 
 .search_box {
@@ -38,11 +38,29 @@ ul {
 }
 /*not sure if this does anything*/
 .search_box input {
-    height: 44px;
-    width: 400px;
-    
+    font-size: 16px;
+    position: absolute;
     border: none;
+    z-index: 7;
+    width: 85%;
+    top: 10px;
+    left: 10px;
 }
+
+.search_box input:focus {
+    border: none;
+    outline: none;
+}
+
+/* To make sure the x that clears text that chrome puts does not show up */
+
+.search_box input::-webkit-search-results-decoration,
+.search_box input::-webkit-search-cancel-button,
+.search_box input::-webkit-search-results-button,
+.search_box input::-webkit-search-decoration {
+    display: none;
+}
+
 
 .left {
     float: left;
@@ -97,4 +115,41 @@ input.button:hover {
     background: #f1f1f1;
     border: 1px solid #c6c6c6;
     box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+.icons {
+    position: relative;
+    float: right;
+}
+
+#options {
+    position: relative;
+    top: 7px;
+    left: -14px;
+}
+
+#bell {
+    position: relative;
+    top: 7px;
+    left: -12px;
+}
+
+#user {
+    position: relative;
+    top: 12px;
+    left: -10px;
+}
+
+ul.header {
+    padding: 22px;
+} 
+
+ul.ft {
+    padding: 13px 24px;
+    color: #666;
+}
+
+ul.ft li {
+    padding-left: 11px;
+    padding-right: 13px;
 }
