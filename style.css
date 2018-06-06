@@ -25,10 +25,10 @@ ul {
 
 .search_box {
     height: 44px;
-    width: 470px;
+    width: 589px;
     border: 1px solid #d6d6d6;
     position: absolute;
-    left: -33px;
+    left: -51px;
     top: 79px;
     box-shadow: 0.1px 0.9px 7px 0px #c8c8c8;
 }
@@ -36,7 +36,7 @@ ul {
 .search_box:active, .search_box:hover {
     box-shadow: 0.1px 0.9px 7px 1px #c8c8c8;
 }
-/*not sure if this does anything*/
+
 .search_box input {
     font-size: 16px;
     position: absolute;
